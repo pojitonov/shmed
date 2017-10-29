@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="shmed.com.ua" resolutions="1x" timestamp="1509310242269">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="shmed.com.ua" resolutions="1x" timestamp="1509315921641">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-master.css" crc="3874739575" ref="index"/>
-    <file name="index.css" crc="4130534914" ref="index"/>
+    <file name="master_a-master.css" crc="4158292268" ref="index"/>
+    <file name="index.css" crc="3996885139" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -16,18 +16,34 @@
   </folder>
   <folder name="images">
     <file name="корпоративные-подарки-–-мёд-шмёд-favicon.ico" crc="137978651" ref="index"/>
-    <file name="logo.jpg" crc="4130225562" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="logo-u791-r-fr.png" crc="244066499" ref="index"/>
-    <file name="imgbanner_sweetygirl_2.jpg" crc="4199933278" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="kids.jpg" crc="159105924" ref="index">
+    <file name="kids.jpg" crc="117053901" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="unicorn.svg" crc="304218108" ref="index"/>
     <file name="unicorn_poster_u828.png" crc="522432970" ref="index"/>
+    <file name="21909512_135076543791179_2266882592072531968_n.jpg" crc="368342544" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="22710816_536586050011141_6022953499560509440_n.jpg" crc="287347610" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="22793807_1638152539592302_8483670856214511616_n.jpg" crc="4017528991" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="20901861_142641899661926_5656794528120569856_n.jpg" crc="3871679674" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo.png" crc="532694394" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo-u1174-r-fr.png" crc="455879840" ref="index"/>
+    <file name="zlata_2.jpg" crc="4199933278" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="arrow_down.svg" crc="4027711619" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="arrow_down_poster_.png" crc="59687063" ref="index"/>
   </folder>
-  <file name="index.html" crc="175091061" mt="1509310211734" redirect="true"/>
+  <file name="index.html" crc="3767096285" mt="1509315907849" redirect="true"/>
 </manifest>
