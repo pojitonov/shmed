@@ -1,0 +1,34 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="corporate.shmed" resolutions="1x" timestamp="1509305270645">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="master_a-master.css" crc="3960545861" ref="index"/>
+    <file name="index.css" crc="507784120" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3803043152" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4153641093" ref="index"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index"/>
+    <file name="require.js" crc="4157109226" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="530399994" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="imgbanner_sweetygirl_2.jpg" crc="4199933278" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="unicorn.svg" crc="304218108" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="kids.jpg" crc="159105924" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="unicorn_poster_u828.png" crc="522432970" ref="index"/>
+    <file name="logo-u791-r-fr.png" crc="4088282609" ref="index"/>
+    <file name="logo.jpg" crc="4130225562" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="3944209181" seo="true" mt="1509305264186" redirect="true"/>
+</manifest>
