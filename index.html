@@ -18,7 +18,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=324988085"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4110364458" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4096208830" id="pagesheet"/>
     <!--HTML Widget code-->
   
 <style>
@@ -77,6 +77,26 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 #panarama01Bg:hover{
 }
 </style>
+
+
+<style>
+#u2560 .mg_scroll_percentage{
+    height: 5px;
+    background-color: rgba(244,91,79, 1);
+	background-image: url("Add File");
+	background-repeat: repeat;
+    width: 0px;
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    left: 0;
+	
+	-webkit-box-shadow: 0px 0px 1px 1px rgba(50,50,50, 0);
+	-moz-box-shadow: 0px 0px 1px 1px rgba(50,50,50, 0);
+	box-shadow: 0px 0px 1px 1px rgba(50,50,50, 0);
+}
+</style>
+
 	
         <style>
         @charset "UTF-8";
@@ -125,7 +145,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        <div class="clearfix" id="u1101_align_to_page">
         <div class="clearfix colelem" id="u1172"><!-- group -->
          <div class="logo1 rounded-corners clearfix grpelem" id="u1173"><!-- group -->
-          <a class="nonblock nontext museBGSize logo grpelem" id="u1174" href="http://www.shmed.com.ua"><!-- simple frame --></a>
+          <div class="museBGSize logo grpelem" id="u1174"><!-- simple frame --></div>
          </div>
         </div>
         <div class="header1 clearfix colelem" id="u1104-6"><!-- content -->
@@ -165,12 +185,19 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <div class="browser_width colelem" id="u603-bw">
      <div class="museBGSize" id="u603"><!-- simple frame --></div>
     </div>
-    <div class="browser_width colelem" id="u2228-bw">
-     <div class="size_browser_width" id="u2228"><!-- custom html -->
-      
+    <div class="clearfix colelem" id="pu2228"><!-- group -->
+     <div class="browser_width grpelem" id="u2228-bw">
+      <div class="size_browser_width" id="u2228"><!-- custom html -->
+       
 <div id="panarama01">
   <div id="panarama01Bg" class="layer" data-depth="1"></div>
 </div>
+
+      </div>
+     </div>
+     <div class="size_fixed grpelem" id="u2560"><!-- custom html -->
+      
+<div class="mg_scroll_percentage"></div>
 
      </div>
     </div>
@@ -344,6 +371,16 @@ function reCenter(){
 	$("#panarama01Bg").css("left","50%");
 	$("#panarama01Bg").css("marginLeft",newMarginLeft); 
 }
+</script>
+
+<script>
+$(window).scroll(function() {
+
+    var scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
+
+    $('#u2560 .mg_scroll_percentage').css('width', scrollPercent +"%"  );
+
+});
 </script>
 
 <script>(function(e){e.fn.visible=function(t,n,r){var i=e(this).eq(0),s=i.get(0),o=e(window),u=o.scrollTop(),a=u+o.height(),f=o.scrollLeft(),l=f+o.width(),c=i.offset().top,h=c+i.height(),p=i.offset().left,d=p+i.width(),v=t===true?h:c,m=t===true?c:h,g=t===true?d:p,y=t===true?p:d,b=n===true?s.offsetWidth*s.offsetHeight:true,r=r?r:"both";if(r==="both")return!!b&&m<=a&&v>=u&&y<=l&&g>=f;else if(r==="vertical")return!!b&&m<=a&&v>=u;else if(r==="horizontal")return!!b&&y<=l&&g>=f}})(jQuery)</script>
