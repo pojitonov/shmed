@@ -18,7 +18,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
   <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=324988085"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=443913056" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=422852748" id="pagesheet"/>
     <!--HTML Widget code-->
   
 <style>
@@ -455,13 +455,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
           <div class="museBGSize logo grpelem" id="u1174"><!-- simple frame --></div>
          </div>
         </div>
-        <div class="header1 clearfix colelem" id="u1104-4"><!-- content -->
+        <div class="header_fadeinup clearfix colelem" id="u1104-4"><!-- content -->
          <p>&nbsp;Лучший подарок для детей и взрослых</p>
         </div>
-        <div class="header2 clearfix colelem" id="u1270-4"><!-- content -->
+        <div class="header_fadeinup clearfix colelem" id="u1270-4"><!-- content -->
          <p>Уникальный и вкусный подарок – это Мёд-шмёд.</p>
         </div>
-        <a class="nonblock nontext anim_swing down clip_frame colelem" id="u1373" href="index.html#content"><!-- svg --><img class="svg" id="u1397" src="images/arrow_down.svg?crc=4027711619" width="35" height="35" alt="" data-mu-svgfallback="images/arrow_down_poster_.png?crc=59687063"/></a>
+        <a class="nonblock nontext anim_swing down clip_frame colelem" id="u4324" href="index.html#content"><!-- svg --><img class="svg" id="u4325" src="images/arrow_down.svg?crc=4027711619" width="35" height="35" alt="" data-mu-svgfallback="images/arrow_down_poster_.png?crc=59687063"/></a>
        </div>
       </div>
      </div>
@@ -564,18 +564,58 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
     </div>
     <a class="nonblock nontext button rgba-background clearfix colelem" id="u3743-4" href="https://www.shmed.com.ua/collections/all"><!-- content --><p id="u3743-2">Выбрать мёд-шмёд в каталоге</p></a>
+    <div class="clearfix colelem" id="pu3990"><!-- group -->
+     <div class="browser_width grpelem" id="u3990-bw">
+      <div class="museBGSize" id="u3990"><!-- simple frame --></div>
+     </div>
+     <div class="browser_width grpelem" id="u3991-bw">
+      <div class="rgba-background" id="u3991"><!-- column -->
+       <div class="clearfix" id="u3991_align_to_page">
+        <div class="header_fadeinup2 clearfix colelem" id="u3992-4"><!-- content -->
+         <p>&nbsp;Лучший подарок для детей и взрослых</p>
+        </div>
+        <div class="header_fadeinup2 clearfix colelem" id="u3996-4"><!-- content -->
+         <p>Уникальный и вкусный подарок – это Мёд-шмёд.</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
     <div class="museBGSize unicorn colelem" id="u738"><!-- simple frame --></div>
    </div>
-   <div class="verticalspacer" data-offset-top="4542" data-content-above-spacer="4542" data-content-below-spacer="96"></div>
-   <div class="size_fixed grpelem" id="u2001"><!-- custom html -->
-    
+   <div class="verticalspacer" data-offset-top="5200" data-content-above-spacer="5200" data-content-below-spacer="97"></div>
+   <div class="clearfix grpelem" id="pu4310"><!-- column -->
+    <div class="header_fadeinup size_fixed colelem" id="u4310"><!-- custom html -->
+     
 	
    <div class="start"></div>       
         
 
-   </div>
-   <div class="clearfix grpelem" id="u271-4"><!-- content -->
-    <p>© 2017 Мёд-шмёд | Работаем как пчёлки</p>
+    </div>
+    <div class="header_fadeinup size_fixed colelem" id="u4415"><!-- custom html -->
+     
+	
+   <div class="start"></div>       
+        
+
+    </div>
+    <div class="size_fixed colelem" id="u2001"><!-- custom html -->
+     
+	
+   <div class="start"></div>       
+        
+
+    </div>
+    <div class="header_fadeinup size_fixed colelem" id="u4304"><!-- custom html -->
+     
+	
+   <div class="start"></div>       
+        
+
+    </div>
+    <div class="clearfix colelem" id="u271-4"><!-- content -->
+     <p>© 2017 Мёд-шмёд | Работаем как пчёлки</p>
+    </div>
    </div>
   </div>
   <!-- JS includes -->
@@ -846,6 +886,322 @@ $.fn.extend({
 <script>
             (function($){
             
+            if(1 == 1){
+                $('.header_fadeinup').hide();
+            }
+            
+            if(1 == 1){
+
+                  if('once' == 'once'){
+                    setTimeout(function(e){
+                        $('.header_fadeinup').show();
+                        $('.header_fadeinup').animateCss('fadeInUp','none','none','0','0','0');                                                
+                    },1000);                    
+                  }
+                  
+                  if('once' == 'loop'){
+                    setTimeout(function(e){
+                        $('.header_fadeinup').show();                        
+                        $('.header_fadeinup').animateCssLoop('fadeInUp','none','none','1000','0','0');                                                                        
+                    },1000);                                       
+                  }
+
+                  if('once' == 'hover'){
+                    $('.header_fadeinup').show();
+                    $(document).on('mouseover','.header_fadeinup', function (e){
+                          setTimeout(function(e){
+                            $('.header_fadeinup').animateCss('fadeInUp','none','none','0','0','0');
+                          },1000);                              
+                      });                                                                              
+                  }
+
+                  if('once' == 'visible_once'){  
+                        var enter = 0;
+                        $(window).add('[canvas="container"]').scroll(function() {                                                  
+                              if($('#u4310 .start').visible() && enter == 0){
+                                  setTimeout(function(e){
+                                    $('.header_fadeinup').animateCss('fadeInUp','none','none','0','0','0');
+                                    $('.header_fadeinup').show();
+                                  },1000); 
+                              enter = 1;                                       
+                              }                                       
+                          });
+                  }
+                  
+                  if('once' == 'visible_once_repeat'){                          
+                        $(window).add('[canvas="container"]').scroll(function() {                                                  
+                              if($('#u4310 .start').visible()){
+                                  setTimeout(function(e){
+                                    $('.header_fadeinup').animateCss('fadeInUp','none','none','0','0','0');
+                                    $('.header_fadeinup').show();
+                                  },1000);                                                          
+                              }                                       
+                          });
+                  }                                    
+
+                  if('once' == 'visible_loop'){                        
+                        $(window).add('[canvas="container"]').scroll(function() {                                
+                              if($('#u4310 .start').visible()){
+                                  setTimeout(function(e){
+                                    $('.header_fadeinup').animateCssLoop('fadeInUp','none','none','1000','0','0');
+                                    $('.header_fadeinup').show();
+                                  },1000);                                  
+                              }                                       
+                          });
+                  }                                    
+                 
+               }else{
+                    $('.header_fadeinup').show();
+                }
+                                
+            })(jQuery);
+        </script>    
+
+<script>(function(e){e.fn.visible=function(t,n,r){var i=e(this).eq(0),s=i.get(0),o=e(window),u=o.scrollTop(),a=u+o.height(),f=o.scrollLeft(),l=f+o.width(),c=i.offset().top,h=c+i.height(),p=i.offset().left,d=p+i.width(),v=t===true?h:c,m=t===true?c:h,g=t===true?d:p,y=t===true?p:d,b=n===true?s.offsetWidth*s.offsetHeight:true,r=r?r:"both";if(r==="both")return!!b&&m<=a&&v>=u&&y<=l&&g>=f;else if(r==="vertical")return!!b&&m<=a&&v>=u;else if(r==="horizontal")return!!b&&y<=l&&g>=f}})(jQuery)</script>
+
+<script>
+$.fn.extend({
+    animateCss: function (animationName1,animationName2,animationName3,delay2,delay3,hideAfter) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';        
+        var element = $(this);
+        
+        element.addClass('animated ' + animationName1).one(animationEnd, function() {
+            element.removeClass('animated ' + animationName1);
+            
+            if(animationName2 != 'none'){                  
+              setTimeout(function(){                
+                element.addClass('animated ' + animationName2).one(animationEnd, function() {
+                    element.removeClass('animated ' + animationName2);            
+                            
+                    if(animationName3 != 'none'){
+                      setTimeout(function(e){                      
+                        element.addClass('animated ' + animationName3).one(animationEnd, function() {
+                            element.removeClass('animated ' + animationName3);                            
+                            if(hideAfter == 1){
+                                element.hide();
+                            }
+                        });                        
+                      },delay3);         
+                    }          
+                    
+                    if(hideAfter == 1 && animationName3 == 'none'){
+                        element.hide();
+                    }
+                });                   
+              },delay2);         
+            }
+            
+            if(hideAfter == 1 && animationName2 == 'none' && animationName3 == 'none'){
+                element.hide();
+            }
+            
+        });
+    },
+    animateCssLoop: function (animationName1,animationName2,animationName3,delay1,delay2,delay3) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';        
+        var element = $(this);
+     
+        element.addClass('animated ' + animationName1).one(animationEnd, function() {
+            element.removeClass('animated ' + animationName1);
+            
+            if(animationName2 != 'none'){      
+                        
+              setTimeout(function(){                
+                element.addClass('animated ' + animationName2).one(animationEnd, function() {
+                    element.removeClass('animated ' + animationName2);                    
+                    if(animationName3 != 'none'){
+                      setTimeout(function(e){                      
+                        element.addClass('animated ' + animationName3).one(animationEnd, function() {
+                            element.removeClass('animated ' + animationName3);
+                            setTimeout(function(e){
+                                element.animateCssLoop(animationName1,animationName2,animationName3,delay1,delay2,delay3);
+                            },delay1);
+                        });                        
+                      },delay3);         
+                    }  
+                    if(animationName3 == 'none'){
+                        setTimeout(function(e){
+                           element.animateCssLoop(animationName1,animationName2,animationName3,delay1,delay2,delay3);
+                        },delay1);
+                    }                  
+                });                   
+              },delay2);      
+                                                
+            }
+            
+            if(animationName2 == 'none' && animationName3 == 'none'){
+                setTimeout(function(e){
+                    element.animateCssLoop(animationName1,animationName2,animationName3,delay1,delay2,delay3);
+                },delay1);
+            }
+        });                
+    }
+});
+
+
+</script>     
+
+<script>
+            (function($){
+            
+            if(1 == 1){
+                $('.down').hide();
+            }
+            
+            if(1 == 1){
+
+                  if('once' == 'once'){
+                    setTimeout(function(e){
+                        $('.down').show();
+                        $('.down').animateCss('fadeInUp','none','none','0','0','0');                                                
+                    },1500);                    
+                  }
+                  
+                  if('once' == 'loop'){
+                    setTimeout(function(e){
+                        $('.down').show();                        
+                        $('.down').animateCssLoop('fadeInUp','none','none','1500','0','0');                                                                        
+                    },1500);                                       
+                  }
+
+                  if('once' == 'hover'){
+                    $('.down').show();
+                    $(document).on('mouseover','.down', function (e){
+                          setTimeout(function(e){
+                            $('.down').animateCss('fadeInUp','none','none','0','0','0');
+                          },1500);                              
+                      });                                                                              
+                  }
+
+                  if('once' == 'visible_once'){  
+                        var enter = 0;
+                        $(window).add('[canvas="container"]').scroll(function() {                                                  
+                              if($('#u4415 .start').visible() && enter == 0){
+                                  setTimeout(function(e){
+                                    $('.down').animateCss('fadeInUp','none','none','0','0','0');
+                                    $('.down').show();
+                                  },1500); 
+                              enter = 1;                                       
+                              }                                       
+                          });
+                  }
+                  
+                  if('once' == 'visible_once_repeat'){                          
+                        $(window).add('[canvas="container"]').scroll(function() {                                                  
+                              if($('#u4415 .start').visible()){
+                                  setTimeout(function(e){
+                                    $('.down').animateCss('fadeInUp','none','none','0','0','0');
+                                    $('.down').show();
+                                  },1500);                                                          
+                              }                                       
+                          });
+                  }                                    
+
+                  if('once' == 'visible_loop'){                        
+                        $(window).add('[canvas="container"]').scroll(function() {                                
+                              if($('#u4415 .start').visible()){
+                                  setTimeout(function(e){
+                                    $('.down').animateCssLoop('fadeInUp','none','none','1500','0','0');
+                                    $('.down').show();
+                                  },1500);                                  
+                              }                                       
+                          });
+                  }                                    
+                 
+               }else{
+                    $('.down').show();
+                }
+                                
+            })(jQuery);
+        </script>    
+
+<script>(function(e){e.fn.visible=function(t,n,r){var i=e(this).eq(0),s=i.get(0),o=e(window),u=o.scrollTop(),a=u+o.height(),f=o.scrollLeft(),l=f+o.width(),c=i.offset().top,h=c+i.height(),p=i.offset().left,d=p+i.width(),v=t===true?h:c,m=t===true?c:h,g=t===true?d:p,y=t===true?p:d,b=n===true?s.offsetWidth*s.offsetHeight:true,r=r?r:"both";if(r==="both")return!!b&&m<=a&&v>=u&&y<=l&&g>=f;else if(r==="vertical")return!!b&&m<=a&&v>=u;else if(r==="horizontal")return!!b&&y<=l&&g>=f}})(jQuery)</script>
+
+<script>
+$.fn.extend({
+    animateCss: function (animationName1,animationName2,animationName3,delay2,delay3,hideAfter) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';        
+        var element = $(this);
+        
+        element.addClass('animated ' + animationName1).one(animationEnd, function() {
+            element.removeClass('animated ' + animationName1);
+            
+            if(animationName2 != 'none'){                  
+              setTimeout(function(){                
+                element.addClass('animated ' + animationName2).one(animationEnd, function() {
+                    element.removeClass('animated ' + animationName2);            
+                            
+                    if(animationName3 != 'none'){
+                      setTimeout(function(e){                      
+                        element.addClass('animated ' + animationName3).one(animationEnd, function() {
+                            element.removeClass('animated ' + animationName3);                            
+                            if(hideAfter == 1){
+                                element.hide();
+                            }
+                        });                        
+                      },delay3);         
+                    }          
+                    
+                    if(hideAfter == 1 && animationName3 == 'none'){
+                        element.hide();
+                    }
+                });                   
+              },delay2);         
+            }
+            
+            if(hideAfter == 1 && animationName2 == 'none' && animationName3 == 'none'){
+                element.hide();
+            }
+            
+        });
+    },
+    animateCssLoop: function (animationName1,animationName2,animationName3,delay1,delay2,delay3) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';        
+        var element = $(this);
+     
+        element.addClass('animated ' + animationName1).one(animationEnd, function() {
+            element.removeClass('animated ' + animationName1);
+            
+            if(animationName2 != 'none'){      
+                        
+              setTimeout(function(){                
+                element.addClass('animated ' + animationName2).one(animationEnd, function() {
+                    element.removeClass('animated ' + animationName2);                    
+                    if(animationName3 != 'none'){
+                      setTimeout(function(e){                      
+                        element.addClass('animated ' + animationName3).one(animationEnd, function() {
+                            element.removeClass('animated ' + animationName3);
+                            setTimeout(function(e){
+                                element.animateCssLoop(animationName1,animationName2,animationName3,delay1,delay2,delay3);
+                            },delay1);
+                        });                        
+                      },delay3);         
+                    }  
+                    if(animationName3 == 'none'){
+                        setTimeout(function(e){
+                           element.animateCssLoop(animationName1,animationName2,animationName3,delay1,delay2,delay3);
+                        },delay1);
+                    }                  
+                });                   
+              },delay2);      
+                                                
+            }
+            
+            if(animationName2 == 'none' && animationName3 == 'none'){
+                setTimeout(function(e){
+                    element.animateCssLoop(animationName1,animationName2,animationName3,delay1,delay2,delay3);
+                },delay1);
+            }
+        });                
+    }
+});
+
+
+</script>     
+
+<script>
+            (function($){
+            
             if(0 == 1){
                 $('.down').hide();
             }
@@ -912,6 +1268,164 @@ $.fn.extend({
                  
                }else{
                     $('.down').show();
+                }
+                                
+            })(jQuery);
+        </script>    
+
+<script>(function(e){e.fn.visible=function(t,n,r){var i=e(this).eq(0),s=i.get(0),o=e(window),u=o.scrollTop(),a=u+o.height(),f=o.scrollLeft(),l=f+o.width(),c=i.offset().top,h=c+i.height(),p=i.offset().left,d=p+i.width(),v=t===true?h:c,m=t===true?c:h,g=t===true?d:p,y=t===true?p:d,b=n===true?s.offsetWidth*s.offsetHeight:true,r=r?r:"both";if(r==="both")return!!b&&m<=a&&v>=u&&y<=l&&g>=f;else if(r==="vertical")return!!b&&m<=a&&v>=u;else if(r==="horizontal")return!!b&&y<=l&&g>=f}})(jQuery)</script>
+
+<script>
+$.fn.extend({
+    animateCss: function (animationName1,animationName2,animationName3,delay2,delay3,hideAfter) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';        
+        var element = $(this);
+        
+        element.addClass('animated ' + animationName1).one(animationEnd, function() {
+            element.removeClass('animated ' + animationName1);
+            
+            if(animationName2 != 'none'){                  
+              setTimeout(function(){                
+                element.addClass('animated ' + animationName2).one(animationEnd, function() {
+                    element.removeClass('animated ' + animationName2);            
+                            
+                    if(animationName3 != 'none'){
+                      setTimeout(function(e){                      
+                        element.addClass('animated ' + animationName3).one(animationEnd, function() {
+                            element.removeClass('animated ' + animationName3);                            
+                            if(hideAfter == 1){
+                                element.hide();
+                            }
+                        });                        
+                      },delay3);         
+                    }          
+                    
+                    if(hideAfter == 1 && animationName3 == 'none'){
+                        element.hide();
+                    }
+                });                   
+              },delay2);         
+            }
+            
+            if(hideAfter == 1 && animationName2 == 'none' && animationName3 == 'none'){
+                element.hide();
+            }
+            
+        });
+    },
+    animateCssLoop: function (animationName1,animationName2,animationName3,delay1,delay2,delay3) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';        
+        var element = $(this);
+     
+        element.addClass('animated ' + animationName1).one(animationEnd, function() {
+            element.removeClass('animated ' + animationName1);
+            
+            if(animationName2 != 'none'){      
+                        
+              setTimeout(function(){                
+                element.addClass('animated ' + animationName2).one(animationEnd, function() {
+                    element.removeClass('animated ' + animationName2);                    
+                    if(animationName3 != 'none'){
+                      setTimeout(function(e){                      
+                        element.addClass('animated ' + animationName3).one(animationEnd, function() {
+                            element.removeClass('animated ' + animationName3);
+                            setTimeout(function(e){
+                                element.animateCssLoop(animationName1,animationName2,animationName3,delay1,delay2,delay3);
+                            },delay1);
+                        });                        
+                      },delay3);         
+                    }  
+                    if(animationName3 == 'none'){
+                        setTimeout(function(e){
+                           element.animateCssLoop(animationName1,animationName2,animationName3,delay1,delay2,delay3);
+                        },delay1);
+                    }                  
+                });                   
+              },delay2);      
+                                                
+            }
+            
+            if(animationName2 == 'none' && animationName3 == 'none'){
+                setTimeout(function(e){
+                    element.animateCssLoop(animationName1,animationName2,animationName3,delay1,delay2,delay3);
+                },delay1);
+            }
+        });                
+    }
+});
+
+
+</script>     
+
+<script>
+            (function($){
+            
+            if(1 == 1){
+                $('.header_fadeinup2').hide();
+            }
+            
+            if(1 == 1){
+
+                  if('visible_once' == 'once'){
+                    setTimeout(function(e){
+                        $('.header_fadeinup2').show();
+                        $('.header_fadeinup2').animateCss('fadeInUp','none','none','0','0','0');                                                
+                    },1000);                    
+                  }
+                  
+                  if('visible_once' == 'loop'){
+                    setTimeout(function(e){
+                        $('.header_fadeinup2').show();                        
+                        $('.header_fadeinup2').animateCssLoop('fadeInUp','none','none','1000','0','0');                                                                        
+                    },1000);                                       
+                  }
+
+                  if('visible_once' == 'hover'){
+                    $('.header_fadeinup2').show();
+                    $(document).on('mouseover','.header_fadeinup2', function (e){
+                          setTimeout(function(e){
+                            $('.header_fadeinup2').animateCss('fadeInUp','none','none','0','0','0');
+                          },1000);                              
+                      });                                                                              
+                  }
+
+                  if('visible_once' == 'visible_once'){  
+                        var enter = 0;
+                        $(window).add('[canvas="container"]').scroll(function() {                                                  
+                              if($('#u4304 .start').visible() && enter == 0){
+                                  setTimeout(function(e){
+                                    $('.header_fadeinup2').animateCss('fadeInUp','none','none','0','0','0');
+                                    $('.header_fadeinup2').show();
+                                  },1000); 
+                              enter = 1;                                       
+                              }                                       
+                          });
+                  }
+                  
+                  if('visible_once' == 'visible_once_repeat'){                          
+                        $(window).add('[canvas="container"]').scroll(function() {                                                  
+                              if($('#u4304 .start').visible()){
+                                  setTimeout(function(e){
+                                    $('.header_fadeinup2').animateCss('fadeInUp','none','none','0','0','0');
+                                    $('.header_fadeinup2').show();
+                                  },1000);                                                          
+                              }                                       
+                          });
+                  }                                    
+
+                  if('visible_once' == 'visible_loop'){                        
+                        $(window).add('[canvas="container"]').scroll(function() {                                
+                              if($('#u4304 .start').visible()){
+                                  setTimeout(function(e){
+                                    $('.header_fadeinup2').animateCssLoop('fadeInUp','none','none','1000','0','0');
+                                    $('.header_fadeinup2').show();
+                                  },1000);                                  
+                              }                                       
+                          });
+                  }                                    
+                 
+               }else{
+                    $('.header_fadeinup2').show();
                 }
                                 
             })(jQuery);
