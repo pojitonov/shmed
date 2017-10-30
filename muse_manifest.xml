@@ -1,8 +1,8 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="shmed.com.ua" resolutions="1x" timestamp="1509388652889">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="shmed.com.ua" resolutions="1x" timestamp="1509389964476">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-master.css" crc="324988085" ref="index"/>
-    <file name="index.css" crc="431042823" ref="index"/>
+    <file name="index.css" crc="3794574654" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="nabor.png" crc="4146209920" seo="true" mt="1509388402000"/>
@@ -54,5 +54,5 @@
     <file name="unicorn.svg" crc="304218108" ref="index"/>
     <file name="unicorn_poster_u828.png" crc="522432970" ref="index"/>
   </folder>
-  <file name="index.html" crc="5006384" mt="1509388648450" redirect="true"/>
+  <file name="index.html" crc="3861090945" mt="1509389895929" redirect="true"/>
 </manifest>
