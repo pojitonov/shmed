@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://shmed.com.ua/assets/22793807_1638152539592302_8483670856214511616_n.jpg</loc>
+    <lastmod>2017-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://shmed.com.ua/assets/20901861_142641899661926_5656794528120569856_n.jpg</loc>
+    <lastmod>2017-10-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://shmed.com.ua/assets/nabor.png</loc>
     <lastmod>2017-10-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://shmed.com.ua/assets/21909512_135076543791179_2266882592072531968_n.jpg</loc>
+    <lastmod>2017-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
