@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="shmed.com.ua" resolutions="1x" timestamp="1509649164706">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="shmed.com.ua" resolutions="1x" timestamp="1509649354028">
   <folder name="css">
     <file name="site_global.css" crc="42084331"/>
     <file name="master_a-master.css" crc="324988085" ref="index"/>
@@ -25,6 +25,9 @@
   </folder>
   <folder name="images">
     <file name="корпоративные-подарки-–-мёд-шмёд-favicon.ico" crc="137978651" ref="index"/>
+    <file name="_dsc0159.jpg" crc="4275038186" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="logo.png" crc="4231879127" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -36,11 +39,6 @@
     <file name="zlata_2.jpg" crc="4199933278" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="line_feather.png" crc="4040828691" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="unicorn.svg" crc="304218108" ref="index"/>
-    <file name="unicorn_poster_u828.png" crc="522432970" ref="index"/>
     <file name="01.png" crc="3788220262" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -53,7 +51,7 @@
     <file name="04.png" crc="3849225439" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="_dsc0159.jpg" crc="4275038186" ref="index">
+    <file name="line_feather.png" crc="4040828691" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="img_3996.jpg" crc="111280736" ref="index">
@@ -62,6 +60,8 @@
     <file name="img_3895-2.jpg" crc="363373069" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="unicorn.svg" crc="304218108" ref="index"/>
+    <file name="unicorn_poster_u828.png" crc="522432970" ref="index"/>
   </folder>
   <file name="index.html" crc="4185012403" mt="1509649095724" redirect="true"/>
 </manifest>
