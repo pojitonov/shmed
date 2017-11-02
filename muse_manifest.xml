@@ -1,17 +1,17 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="shmed.com.ua" resolutions="1x" timestamp="1509648267274">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="shmed.com.ua" resolutions="1x" timestamp="1509649164706">
   <folder name="css">
     <file name="site_global.css" crc="42084331"/>
     <file name="master_a-master.css" crc="324988085" ref="index"/>
-    <file name="index.css" crc="4283830279" ref="index"/>
+    <file name="index.css" crc="294894948" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="nabor.png" crc="4146209920" seo="true" mt="1509388402000"/>
     <file name="20901861_142641899661926_5656794528120569856_n.jpg" crc="3944250409" seo="true" mt="1509310927000"/>
     <file name="22793807_1638152539592302_8483670856214511616_n.jpg" crc="4283018164" seo="true" mt="1509283901000"/>
     <file name="21909512_135076543791179_2266882592072531968_n.jpg" crc="3973588889" seo="true" mt="1509283958000"/>
-    <file name="19984760_153166338580236_3787715762668437504_n.jpg" crc="356797088" seo="true" mt="1509393185000"/>
     <file name="22710816_536586050011141_6022953499560509440_n.jpg" crc="4248700616" seo="true" mt="1509393389000"/>
-    <file name="21577103_205135103357809_4010949187549003776_n.jpg" crc="350183566" seo="true" mt="1509283970000"/>
+    <file name="img_3483.jpg" crc="166741860" seo="true" mt="1509648963000"/>
+    <file name="img_3945.jpg" crc="368271736" seo="true" mt="1509649048000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -25,9 +25,6 @@
   </folder>
   <folder name="images">
     <file name="корпоративные-подарки-–-мёд-шмёд-favicon.ico" crc="137978651" ref="index"/>
-    <file name="teapot.jpg" crc="4101353144" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="logo.png" crc="4231879127" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -39,13 +36,7 @@
     <file name="zlata_2.jpg" crc="4199933278" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="kids.jpg" crc="117053901" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="line_feather.png" crc="4040828691" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="bottom_1.jpg" crc="3984792596" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="unicorn.svg" crc="304218108" ref="index"/>
@@ -62,6 +53,15 @@
     <file name="04.png" crc="3849225439" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="_dsc0159.jpg" crc="4275038186" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_3996.jpg" crc="111280736" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="img_3895-2.jpg" crc="363373069" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="3775250035" mt="1509648189386" redirect="true"/>
+  <file name="index.html" crc="4185012403" mt="1509649095724" redirect="true"/>
 </manifest>
