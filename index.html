@@ -18,12 +18,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Корпоративные подарки – Мёд-шмёд</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=42084331"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=94527556"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=121823701" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=339511356"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=308450759" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=3824530138"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=182830293" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=4188611251" id="nomq_pagesheet"/>
   <![endif]-->
     <!--HTML Widget code-->
   
@@ -409,8 +409,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 			.fc-slideshow-u2989 {
 				
 				position: relative;
-				width: 508px;
-				height: 508px;
+				width: 364px;
+				height: 364px;
 
 				box-shadow: 
 					inset 0 0 0px rgba(255,255,255,0),
@@ -1158,7 +1158,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <p id="u3740-2">Выбери мёд-шмёд по вкусу</p>
      </div>
      <div class="clearfix colelem shared_content" id="pu2989" data-content-guid="pu2989_content"><!-- group -->
-      <div class="size_fixed grpelem" id="u2989"><!-- custom html -->
+      <div class="size_fixed grpelem shared_content" id="u2989" data-content-guid="u2989_content"><!-- custom html -->
        				
 			<div id="fc-slideshow-u2989" class="fc-slideshow-u2989">
 					<ul id="photoListCircleu2989"class="fc-slides" >
@@ -1166,7 +1166,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 				</div>
 		
       </div>
-      <div class="size_fixed grpelem" id="u2560"><!-- custom html -->
+      <div class="size_fixed grpelem shared_content" id="u2560" data-content-guid="u2560_content"><!-- custom html -->
        
 <div class="mg_scroll_percentage"></div>
 
@@ -1313,7 +1313,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </div>
      </div>
      <span class="H2 clearfix colelem placeholder" data-placeholder-for="u3740-4_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu2989_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu2989"><!-- group -->
+      <div class="browser_width grpelem" id="u2989-bw">
+       <span class="size_browser_width placeholder" data-placeholder-for="u2989_content"><!-- placeholder node --></span>
+      </div>
+      <span class="size_fixed grpelem placeholder" data-placeholder-for="u2560_content"><!-- placeholder node --></span>
+     </div>
      <span class="nonblock nontext button rgba-background clearfix colelem placeholder" data-placeholder-for="u3743-4_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu3990_content"><!-- placeholder node --></span>
      <span class="H2 clearfix colelem placeholder" data-placeholder-for="u4606-4_content"><!-- placeholder node --></span>
@@ -1322,7 +1327,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <span class="clearfix colelem placeholder" data-placeholder-for="u4754_content"><!-- placeholder node --></span>
      <span class="museBGSize unicorn colelem placeholder" data-placeholder-for="u738_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="5892" data-content-above-spacer="5891" data-content-below-spacer="96"></div>
+    <div class="verticalspacer" data-offset-top="5754" data-content-above-spacer="5753" data-content-below-spacer="96"></div>
     <span class="clearfix grpelem placeholder" data-placeholder-for="pu4310_content"><!-- placeholder node --></span>
     <span class="clearfix grpelem placeholder" data-placeholder-for="u271-4_content"><!-- placeholder node --></span>
    </div>
@@ -1430,13 +1435,13 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#bp_infinity').one('muse_this_bp_activate', function(){
-$('#u513').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,962.45]},{"speed":[0,0],"in":[962.45,Infinity]}], $(this)); /* scroll effect */
-$('#u603').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,2554.85]},{"speed":[0,0],"in":[2554.85,Infinity]}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
 $('#bp_960').one('muse_this_bp_activate', function(){
 $('#u513').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,940.49]},{"speed":[0,0],"in":[940.49,Infinity]}], $(this)); /* scroll effect */
 $('#u603').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,2654.39]},{"speed":[0,0],"in":[2654.39,Infinity]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_infinity').one('muse_this_bp_activate', function(){
+$('#u513').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,962.45]},{"speed":[0,0],"in":[962.45,Infinity]}], $(this)); /* scroll effect */
+$('#u603').registerBackgroundPositionScrollEffect([{"speed":[0,0],"in":[-Infinity,2554.85]},{"speed":[0,0],"in":[2554.85,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
