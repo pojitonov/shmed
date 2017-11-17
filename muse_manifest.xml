@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="shmed.com.ua" resolutions="1x" timestamp="1510595054743">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="shmed.com.ua" resolutions="1x" timestamp="1510947581030">
   <folder name="css">
-    <file name="site_global.css" crc="42084331"/>
-    <file name="master_a-master.css" crc="339511356" ref="index"/>
-    <file name="index.css" crc="308450759" ref="index"/>
+    <file name="site_global.css" crc="3999465160"/>
+    <file name="master_a-master.css" crc="4040089046" ref="index"/>
+    <file name="index.css" crc="3776710350" ref="index"/>
     <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="index"/>
-    <file name="nomq_index.css" crc="4188611251" ref="index"/>
+    <file name="nomq_index.css" crc="192140509" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="20901861_142641899661926_5656794528120569856_n.jpg" crc="3944250409" seo="true" mt="1509310927000"/>
@@ -68,12 +68,12 @@
     </file>
     <file name="logo_poster_.png" crc="4239326806" ref="index"/>
     <file name="04_poster_u6646.png" crc="467099091" ref="index"/>
-    <file name="nabor-u7423-fr.jpg" crc="4293113949" ref="index"/>
+    <file name="nabor-u7423-fr.jpg" crc="4093651253" ref="index"/>
     <file name="banner_3-u3990-fr2.jpg" crc="4214423642" ref="index"/>
-    <file name="nabor.jpg" crc="42846999" ref="index">
+    <file name="nabor.jpg" crc="4115075284" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="nabor-u7423-fr2.jpg" crc="4060399955" ref="index"/>
   </folder>
-  <file name="index.html" crc="488708661" mt="1510316514684" redirect="true"/>
+  <file name="index.html" crc="4188885610" mt="1510947575899" redirect="true"/>
 </manifest>
