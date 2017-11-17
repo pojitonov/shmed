@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="shmed.com.ua" resolutions="1x" timestamp="1510947581030">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="shmed.com.ua" resolutions="1x" timestamp="1510949049971">
   <folder name="css">
     <file name="site_global.css" crc="3999465160"/>
     <file name="master_a-master.css" crc="4040089046" ref="index"/>
-    <file name="index.css" crc="3776710350" ref="index"/>
+    <file name="index.css" crc="278832396" ref="index"/>
     <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="index"/>
-    <file name="nomq_index.css" crc="192140509" ref="index"/>
+    <file name="nomq_index.css" crc="3911291982" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="20901861_142641899661926_5656794528120569856_n.jpg" crc="3944250409" seo="true" mt="1509310927000"/>
@@ -75,5 +75,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4188885610" mt="1510947575899" redirect="true"/>
+  <file name="index.html" crc="490043160" mt="1510949020476" redirect="true"/>
 </manifest>
